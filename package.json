@@ -1,0 +1,51 @@
+{
+  "name": "Axrat-starter-pack",
+  "version": "1.1.0",
+  "description": "A little helper to kickstart your projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp default",
+    "build": "gulp build",
+    "no-pug": "gulp no-pug",
+    "help": "gulp help"
+  },
+  "author": "MoHussam Dev",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "browser-sync": "^2.26.13",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-typescript": "^4.0.0-alpha.1",
+    "gulp-uglify": "^3.0.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "browser-sync-reuse-tab": "^1.0.3",
+    "gulp-nodemon": "^2.5.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-wait": "0.0.2",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "ts-query": "0.0.6"
+  },
+  "browserslist": [
+    "defaults",
+    "cover 99.5%",
+    "cover 99.5% in US",
+    "ie 6-8",
+    "dead",
+    "Edge 17",
+    "Edge 18"
+  ]
+}
