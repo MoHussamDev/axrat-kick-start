@@ -1,0 +1,18 @@
+body,html,h1,h2,h3,h5,h6,p,span,a{
+    font-family: 'Montserrat', sans-serif !important;
+}
+body{
+    background-color: white !important;
+}
+
+.btn-primary{
+    background-color: $primary-color;
+    border-color: $primary-color;
+    font-weight: 600;
+    
+    &:hover{
+        background-color: rgba($primary-color,0.8) ;
+        border-color: rgba($primary-color,0.8);
+    }
+}
+
