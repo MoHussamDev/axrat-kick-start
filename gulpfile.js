@@ -8,8 +8,6 @@ const plumber = require('gulp-plumber');
 const autoprefixer = require('gulp-autoprefixer');
 
 
-
-
 /// Function Sass Compiler 
 
 function websiteMainStyle (){
