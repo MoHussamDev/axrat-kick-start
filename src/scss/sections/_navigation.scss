@@ -1,0 +1,75 @@
+.ax-navigation{
+    @extend .container-fluid !optional;
+    background-color: $tritary-color;
+    height: 70px;
+    &__container{
+        @extend .container !optional;
+        
+        
+    }
+    &__row{
+        @extend .row !optional;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        
+        .ax-navigation-logo{
+            img{
+                width: 150px;
+                height: 60px;
+            }
+        }
+        .ax-navigation-links{
+            display: flex;
+            width: 300px;
+            height: 60px;
+            align-items: center;
+            margin-bottom: unset;
+            list-style: none;
+            li{
+                height: 100%;
+                margin-right: 15px;
+                display: flex;
+                align-items:center;
+                position: relative;
+                a{
+                    text-decoration: none;
+                    color: $white;
+                 
+                }
+                &:hover{
+                    .sub-navigation{
+                        display: block;
+                    }   
+                }
+                .sub-navigation{
+                    display: none;
+                    position: absolute;
+                    top:60px;
+                    flex-direction: column;
+                    width: 150px;
+                    background-color: $primary-color;
+                    padding-left: unset;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    li{
+                        height: 40px;
+                        margin-right: unset;
+                        a{
+                            height: inherit;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            text-align: center;
+                            width: 100%;
+                            &:hover{
+                                background-color: rgba($secondary-color,0.5) ;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+}
